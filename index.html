@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather forcast</h1>
+            <div class="Search-bar">
+                <input type="text" id="location-input" placeholder="Enter city or zip code">
+                <button id="Search">Search</button>
+                <div id="suggestions"></div>
+            </div>
+        </header>
+        <main>
+            <div id="current-weather"> 
+                <h2 id="city-name">Default Location</h2>
+                <p id="temperature">Temperature:_ _C</p>
+                <p id="humidity">Humidity:_ _%</p>
+                <p id="wind-speed">Wind-speed:_ _m/s</p>
+
+            </div>
+            <div id="forecast">
+                <h2>5-Day forcast</h2>
+                <div id="forecast-container">
+
+                </div>
+            </div>
+        </main>
+
+    </div>
+</body>
+</html>
